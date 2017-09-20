@@ -3,9 +3,14 @@
     <string name="donateTitle">Welcome Homer</string>
     <string name="donateSubtitle">Please give generously</string>
     <string name="donateButton">Donate</string>
-    <string name="payPal">PayPal</string>
-    <string name="direct">Direct</string>
+    <string name="PayPal">PayPal</string>
+    <string name="Direct">Direct</string>
     <string name="amountText">Amount</string>
-    <string name="totalText">Total so far</string>
-    <string name="totalDisplay" />
+    <string name="amountBox">Total so far</string>
+    <string name="amountTotal" />
+    <string name="menuSettings">Settings</string>
+    <string name="menuReport">Report</string>
+    <string name="reportTitle">Report</string>
+    <string name="defaultAmount">00</string>
+    <string name="defaultMethod">N/A</string>
 </resources>
