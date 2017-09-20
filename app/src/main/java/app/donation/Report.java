@@ -40,13 +40,15 @@ public class Report extends AppCompatActivity
   @Override
   public boolean onOptionsItemSelected(MenuItem item)
   {
-    switch (item.getItemId())
-    {
+    switch (item.getItemId()) {
       case R.id.menuDonate:
         startActivity(new Intent(this, Donate.class));
         break;
       case R.id.menuSettings:
         Toast.makeText(this, "Settings Selected", Toast.LENGTH_SHORT).show();
+        break;
+      case R.id.menuLogout:
+        startActivity(new Intent(this, Welcome.class));
         break;
     }
     return true;

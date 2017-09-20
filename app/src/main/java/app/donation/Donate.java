@@ -54,6 +54,9 @@ public class Donate extends AppCompatActivity {
       case R.id.menuSettings:
         Toast.makeText(this, "Settings Selected", Toast.LENGTH_SHORT).show();
         break;
+      case R.id.menuLogout:
+        startActivity(new Intent(this, Welcome.class));
+        break;
     }
     return true;
   }
