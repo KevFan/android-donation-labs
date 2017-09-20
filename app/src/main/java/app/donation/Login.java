@@ -9,18 +9,14 @@ import android.view.View;
  * Created by kevin on 20/09/2017.
  */
 
-public class Welcome extends AppCompatActivity {
+public class Login extends AppCompatActivity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_welcome);
+    setContentView(R.layout.activity_login);
   }
 
-  public void welcomeLoginButtonPressed(View view) {
-    startActivity(new Intent(this, Login.class));
-  }
-
-  public void signupButtonPressed(View view) {
-    startActivity(new Intent(this, Signup.class));
+  public void loginButtonPressed(View view) {
+    startActivity(new Intent(this, Donate.class));
   }
 }
