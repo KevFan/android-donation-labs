@@ -28,7 +28,7 @@ public class Signup extends AppCompatActivity {
     app = (DonationApp) getApplication();
     firstNameBox = (TextView) findViewById(R.id.firstNameBox);
     lastNameBox = (TextView) findViewById(R.id.lastNameBox);
-    emailBox = (TextView) findViewById(R.id.emailBox);
+    emailBox = (TextView) findViewById(R.id.emailbox);
     passwordBox = (TextView) findViewById(R.id.passwordBox);
   }
 

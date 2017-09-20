@@ -36,10 +36,22 @@ public class DonationApp extends Application
     users.add(user);
   }
 
+  public User successLogin(String email, String password) {
+    User registeredUser = null;
+    for (User user : users) {
+      if (user.email.equals(email) && user.password.equals(password)) {
+        registeredUser = user;
+        Log.v("Donate", user.toString());
+      }
+    }
+    return registeredUser;
+  }
+
   @Override
   public void onCreate()
   {
     super.onCreate();
     Log.v("Donate", "Donation App Started");
   }
+
 }
